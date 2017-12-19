@@ -1,0 +1,19 @@
+{
+  "name": "my-portfolio-website",
+  "version": "1.0.0",
+  "description": "Avi Zadok portfolio website",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AviGitHub/MyPortfolioWebsite.git"
+  },
+  "author": "Avi Zadok",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AviGitHub/MyPortfolioWebsite/issues"
+  },
+  "homepage": "https://github.com/AviGitHub/MyPortfolioWebsite#readme"
+}
