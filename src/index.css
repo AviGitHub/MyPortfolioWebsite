@@ -15,7 +15,7 @@ h1 {
 
 .az-footer {
     text-align: left;
-    position: absolute;
+    position: fixed;
     bottom: 0;
 }
 
