@@ -2,6 +2,9 @@
 
 <head>
     <link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="jquery-3.2.1.min.js"></script>
+
     <link rel="stylesheet" type="text/css" href="index.css">
     <title>Avi Zadok Portfolio</title>
     <meta charset="UTF-8">
@@ -9,17 +12,41 @@
     <meta name="keywords" content="SW developer, C#, Java, Javascript">
     <meta name="author" content="Avi Zadok">
 </head>
-<header class="az-header">
-    <h1>Avi Zadok - Portfolio page</h1>
-</header>
+
+<div class="az-header-section">
+    <header class="az-header">
+        <h1>Avi Zadok - Portfolio page</h1>
+    </header>
+</div>
 
 
-
-<body>
-
+<body class="az-body">
+    <div class="az-image">
+        <img src="https://lh3.googleusercontent.com/hoq3-My_nxd2IIXdUiVMXGMrbktZ2AFDmy9dP11xEJvELVsyoCCusCdAzJWbzKGcFlNAizJgTC-W-nDrJifYbPViUg2WEeWWz-rIezauLj3CVML2fC1uHK5eLksAJ9pomArdYQWowr74x_tWwYhQF6FHIjNXs1_fHFOoDGpQLiMSBg_R0BG_8_ekxKHKlpFj2-9YFy8yUPDV7tFukcL3mTtiLG8l2_nW7JW0h513e2ksjlaZjHLR5qH2McphJDHRf2nYTNZ6eSYrKBYXv5T2-TAP8kC_GI1XABP0Uc-rCRgVKPBavrKpz8YDPM9oRkkYwLDmQggio-gXasDSITFJ-FkwegstVIE1Ougtt35GSnlh-YgblULHk3-pIj6gYMSe53adOvEG8u-EpO2aeMtuX_pww1_z1gox6lJhv4KP6dXGjXYYXc9hZtty6OJzSUFf-g3_NBeYSnUrADGhqBhr6oOlhQpzGBaynz_RbpvXKsblJkq4knPYUlnMjb8wTxmYUHFAbjIxAuyUzsjX4izetK23QXDMSZ-lfAS9-uA86m1Rcf9sL21NjkZwxSeO-WBRnZXxh_saBYeu-mpCTRb6xUKUPNENFnnLudLO6L2p=w1814-h1021-no"
+            alt="In Tel-Aviv" class="img-rounded img-fluid img-thumbnail align-middle">
+    </div>
 </body>
 
-<footer class="az-footer">
-    <p>Copyright: Avi Zadok, 2017</p>
-    <p>Contact information: <a href="mailto:avizadok@gmail.com">avizadok@gmail.com</a>.</p>
-</footer>
+<div class="az-footer-seqsion">
+    <footer class="az-footer">
+        <p>Copyright: Avi Zadok, 2017</p>
+        <p>Contact information: <a href="mailto:avizadok@gmail.com">avizadok@gmail.com</a>.</p>
+
+        <div class="col-md-7">
+            <div class="row">
+                <form action="/submit">
+                    <div class="col-sm-5">
+                        <div class="input-group">
+                            <input type="text" class="form-control" placeholder="Username" aria-label="Username" aria-describedby="basic-addon1">
+                            <span class="input-group-addon" id="basic-addon1">@</span>
+                            <input type="text" class="form-control" placeholder="Username" aria-label="Username" aria-describedby="basic-addon1">
+                        </div>
+                    </div>
+                    <div class="col-sm-5">
+                        <button type="submit" class="btn btn-primary">Subscribe</button>
+                    </div>
+            </div>
+            </form>
+        </div>
+    </footer>
+</div>
