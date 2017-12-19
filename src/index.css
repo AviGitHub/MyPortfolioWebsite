@@ -18,3 +18,9 @@ h1 {
     position: absolute;
     bottom: 0;
 }
+
+.az-image {
+    margin: auto;
+    height: 1000px;
+    width: 1000px;
+}
